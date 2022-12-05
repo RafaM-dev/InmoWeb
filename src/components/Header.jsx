@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import Logo from "../assets/img/buildings.png";
+import Logo from "../assets/img/Logo2.png";
+import "./header.css"
 
 const Header = () => {
   return (
@@ -10,7 +11,7 @@ const Header = () => {
       >
         {/* logo */}
         <Link to="/">
-          <img className="object-cover h-42 w-20" src={Logo} alt="" />
+          <img className="image" src={Logo} alt="" />
         </Link>
         {/* Buttons */}
         <div className="flex items-center gap-6">

@@ -1,5 +1,6 @@
 // import houseData
 import { housesData } from "../data";
+import "../components/header.css"
 //  useParams
 import { useParams } from "react-router-dom";
 // import icons
@@ -7,7 +8,7 @@ import { BiBed, BiBath, BiArea, BiPhone } from "react-icons/bi";
 // import link
 import Carousel from "../components/CarouselFadeExample";
 import { ContactForm } from "../components/ContactForm";
-import Logo from "../assets/img/buildings.png";
+import Logo from "../assets/img/Logo2.png";
 import { motion } from "framer-motion";
 
 const PropertyDetails = () => {
@@ -64,8 +65,8 @@ const PropertyDetails = () => {
         </div>
         <div className="flex-1 w-full mb-8 bg-white border border-gray-300 rounded-lg px-6 py-8">
           <div className="flex items-center gap-x-4 mb-8">
-            <div className="w-20 h-20 p-1 border border-gray-300 rounded-full">
-              <img src={Logo} alt="" />
+            <div className="flex items-center justify-center w-20 h-20 p-1 border border-gray-300 rounded-full ">
+              <img className="image2"  src={Logo} alt="" />
             </div>
             <div>
               <div className="font-bold text-lg">Contacto</div>
